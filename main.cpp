@@ -13,6 +13,8 @@ int main() {
         forest.AddAnimal(new DomesticAnimal());
         forest.AddAnimal(new WildAnimal());
     }
+    if (numOfAnimals%2==1)
+        forest.AddAnimal(new DomesticAnimal());
     forest.AddAnimal(new DomesticAnimal());
     forest.movement();              //1000 movement
     forest.movement();
