@@ -116,7 +116,7 @@ int main() {
     forest.movement();
     forest.movement();
     forest.movement();              //1000 movement
-    cout<<"Total Fell Animals in Pits!!: "<< forest.getTotalFall()<<endl;
+    cout<<"Total Fells Animals in Pits!!: "<< forest.getTotalFall()<<endl;
     // now with pet & wild & domestic 
     cin>>numOfAnimals;
     Jungle forest(numOfAnimals);
@@ -232,6 +232,6 @@ int main() {
     forest.movement();
     forest.movement();
     forest.movement();              //1000 movement
-    cout<<"Total Fell Animals in Pits!!: "<< forest.getTotalFall()<<endl;
+    cout<<"Total Fells Animals in Pits!!: "<< forest.getTotalFall()<<endl;
     return 0;
 }
