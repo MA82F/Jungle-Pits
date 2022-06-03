@@ -1,6 +1,6 @@
 #include <iostream>
 #include "PetAnimal.h"
-Pet::Pet() :Animal() {}
-void Pet::fall(){
+PetAnimal::PetAnimal() :Animal() {}
+void PetAnimal::fall(){
     std::cout << " $$$$ Pet Animal fell $$$$" << std::endl;
 }

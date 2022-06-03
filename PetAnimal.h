@@ -3,9 +3,9 @@
 
 #include "Animal.h"
 
-class Pet : public Animal{
+class PetAnimal : public Animal{
 public:
-    Pet();
+    PetAnimal();
     virtual void fall() override final;
 };
 
