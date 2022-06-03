@@ -3,6 +3,7 @@
 #include "Animal.cpp"
 #include "DomesticAnimal.cpp"
 #include "WildAnimal.cpp"
+#include "PetAnimal.cpp"
 using namespace std;
 int main() {
     int numOfAnimals;
