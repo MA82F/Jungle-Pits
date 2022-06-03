@@ -112,7 +112,7 @@ int main() {
     forest.movement();
     forest.movement();
     forest.movement();
-    forest.movement();    //1000 movement
+    forest.movement();              //1000 movement
     cout<<"Total Fell Animals in Pits!!: "<< forest.getTotalFall()<<endl;
     return 0;
 }
