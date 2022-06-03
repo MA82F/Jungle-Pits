@@ -4,7 +4,6 @@
 #include "Animal.h"
 
 class Pet : public Animal{
-
 public:
     Pet();
     virtual void fall() override final;
